@@ -407,4 +407,7 @@
     <!-- Defines the sysfs attribute path used by the device
          to enable/disable DC dimming. -->
     <string name="config_deviceDcDimmingSysfsNode">/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_exposure</string>
+
+    <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/bms/fastcharge_mode</string>
 </resources>
