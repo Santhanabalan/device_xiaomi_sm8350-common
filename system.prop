@@ -2,6 +2,10 @@
 persist.vendor.btstack.enable.lpa=true
 vendor.bluetooth.soc=hastings
 
+# ART
+dalvik.vm.dex2oat-filter=everything
+dalvik.vm.image-dex2oat-filter=everything
+
 # Charger
 ro.charger.enable_suspend=true
 
