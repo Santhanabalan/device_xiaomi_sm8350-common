@@ -334,3 +334,6 @@ ro.min_pointer_dur=8
 ro.max.fling_velocity=12000
 ro.min.fling_velocity=8000
 persist.sys.scrollingcache=3
+
+#Scrolling Optimization
+ro.vendor.perf.scroll_opt=true
